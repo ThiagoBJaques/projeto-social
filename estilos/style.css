@@ -41,3 +41,22 @@ iframe#tela {
     width: 265px;
     height: 471px;
 }
+
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais img { /* Dentro da section está as redes socias e dentro está a img (imagem) */
+    width: 50px;
+    margin: 10px; /* Espaço entre os ícones */
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.455);
+    box-sizing: border-box; /* A borda faz parte da box */
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.64);
+    transform: translate(-3px, -3px); /* Ao passar o mouse sobre os ícones eles levantam */
+    box-shadow: 5px 5px 10 rgba(0, 0, 0, 0.599); /* Sombra para os ícones ao subirem */
+    transition: transform .5s, border 1s; /* Para fazer o efeito dos ícones subirem bem suave */
+}
